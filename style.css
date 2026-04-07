@@ -1,4 +1,4 @@
-/* RESET & GLOBAL STYLING */
+
 * {
   margin: 0;
   padding: 0;
@@ -72,7 +72,7 @@ form select:focus {
   outline: none;
 }
 
-/* FORM BUTTON */
+
 form button {
   padding: 12px;
   background: #1976d2;
@@ -143,6 +143,42 @@ form button:hover {
   transform: translateY(-5px);
 }
 
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #0d47a1;
+  color: white;
+  margin-top: 40px;
+}
+
+.dashboard {
+  width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+.dashboard h2 {
+  color: #0d47a1;
+  margin-bottom: 20px;
+}
+.dashboard table {
+  width: 100%;
+}
+.dashboard th,
+.dashboard td {
+  padding: 12px;
+  text-align: left;
+}
+
+.dashboard th {
+  background: #1976d2;
+  color: white;
+}
+.dashboard tr:nth-child(even) {
+  background: #6c93cd;
+}
 .footer {
   text-align: center;
   padding: 20px;
